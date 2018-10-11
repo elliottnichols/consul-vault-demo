@@ -1,10 +1,8 @@
 
-SHELL:=/bin/bash
-
-CONSUL_MASTER_ROOT_TOKEN='uuidgen'
+SHELL := /bin/bash
 
 all:
-	./script.sh
+	source script.sh && build_me_dis
 	
 stop:
 	docker-compose down
