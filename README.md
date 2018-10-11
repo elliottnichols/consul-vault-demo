@@ -4,6 +4,8 @@ Standup local, single-instances of Vault and Consul. Vault will use Consul as th
 ## Prerequisites  
   - Docker
   - make
+  - local Vault binary
+  - local Consul binary
 
 
 ## Usage
