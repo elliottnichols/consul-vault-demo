@@ -12,7 +12,7 @@ $ git clone https://github.com/elliottnichols/consul-vault-demo.git
 $ cd consul-vault-demo
 $ export VAULT_ADDR=http://localhost:8200
 $ make
-$ vault unseal
+$ vault operator unseal
 
 ```
 ## Open UIs:
